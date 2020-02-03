@@ -24,7 +24,6 @@
   /* Status text */
   .Contact .status .status-text {
     color: #999;
-    margin: 0;
   }
   
   /* Status (rounded&colored indicator) */
@@ -43,4 +42,16 @@
   
   .Contact .status .status-offline {
     background: #f4511e;
+  }
+
+  .Contact .status .status-text .status-online .insideText {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+  }
+
+  .Contact .status .status-text .status-offline .insideText {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
   }
